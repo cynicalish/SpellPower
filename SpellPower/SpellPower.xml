@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Forms>
+    <Form Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="360" BAnchorPoint="0" BAnchorOffset="40" RelativeToClient="1" Font="Default" Text="" BGColor="FF000000" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="SlingerResourcePanel" Border="0" Picture="1" SwallowMouseClicks="1" Moveable="1" Escapable="0" Overlapped="0" TooltipColor="" Sprite="BasicSprites:WhiteFill" Sizable="0" IgnoreMouse="1" MaintainAspectRatio="1" NoClip="1" NeverBringToFront="1" Tooltip="" RequireMetaKeyToMove="1" ScaleOnShowHide="1">
+        <Event Name="WindowMove" Function="SavePosition"/>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="320" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="360" BAnchorPoint="0" BAnchorOffset="40" RelativeToClient="1" Font="Default" Text="" BGColor="AA000000" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="FocusTextContainer" TooltipColor="" Sprite="" Picture="0" IgnoreMouse="1" NoClip="1" NeverBringToFront="1" Tooltip="">
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="-5" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="40" BAnchorPoint="0" BAnchorOffset="40" RelativeToClient="1" Font="CRB_Interface16_BB" Text="90" BGColor="55000000" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="FocusText" TooltipColor="" Picture="0" IgnoreMouse="1" Sprite="BasicSprites:WhiteFill" TextId="" DT_CENTER="1" DT_VCENTER="1" DT_SINGLELINE="0" DT_WORDBREAK="0" DT_BOTTOM="0" Tooltip="" AutoScaleTextOff="0"/>
+        </Control>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="320" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="Default" Text="" BGColor="AA000000" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="BarContainer" TooltipColor="" Sprite="" Picture="0" IgnoreMouse="1" NoClip="1" NeverBringToFront="1">
+            <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="5" TAnchorPoint="0" TAnchorOffset="5" RAnchorPoint="0" RAnchorOffset="80" BAnchorPoint="0" BAnchorOffset="25" AutoSetText="0" UseValues="0" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="SpellPowerBar1" BGColor="55000000" TextColor="white" TooltipColor="" BarColor="AA992400" BRtoLT="0" EdgeGlow="0" NoClipEdgeGlow="0" DrawTicks="0" PolygonalClipping="0" RadialBar="0" ProgressEdgeGlow="" HideInEditor="0" Sprite="BasicSprites:WhiteFill" Picture="1" IgnoreMouse="1" NoClip="1" NeverBringToFront="1" Tooltip="" Font="Default" TextId="">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="28" TAnchorPoint="0" TAnchorOffset="1" RAnchorPoint="0" RAnchorOffset="46" BAnchorPoint="0" BAnchorOffset="19" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="Full" TooltipColor="" Sprite="SpellPower_SSrunes:ssrune1" Picture="1" IgnoreMouse="1" DoNotBlockTooltip="1" NoClip="1" ScaleOnShowHide="1"/>
+            </Control>
+            <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="85" TAnchorPoint="0" TAnchorOffset="5" RAnchorPoint="0" RAnchorOffset="160" BAnchorPoint="0" BAnchorOffset="25" AutoSetText="0" UseValues="0" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="SpellPowerBar2" BGColor="55000000" TextColor="white" TooltipColor="" BarColor="AA992400" BRtoLT="0" EdgeGlow="0" NoClipEdgeGlow="0" DrawTicks="0" PolygonalClipping="0" RadialBar="0" ProgressEdgeGlow="" HideInEditor="0" Sprite="BasicSprites:WhiteFill" Picture="1" Sizable="0" NoClip="1" NeverBringToFront="1" IgnoreMouse="1">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="28" TAnchorPoint="0" TAnchorOffset="1" RAnchorPoint="0" RAnchorOffset="46" BAnchorPoint="0" BAnchorOffset="19" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="Full" TooltipColor="" Sprite="SpellPower_SSrunes:ssrune2" Picture="1" IgnoreMouse="1" DoNotBlockTooltip="1" NoClip="1" ScaleOnShowHide="1"/>
+            </Control>
+            <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="165" TAnchorPoint="0" TAnchorOffset="5" RAnchorPoint="0" RAnchorOffset="240" BAnchorPoint="0" BAnchorOffset="25" AutoSetText="0" UseValues="0" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="SpellPowerBar3" BGColor="55000000" TextColor="white" TooltipColor="" BarColor="AA992400" BRtoLT="0" EdgeGlow="0" NoClipEdgeGlow="0" DrawTicks="0" PolygonalClipping="0" RadialBar="0" ProgressEdgeGlow="" HideInEditor="0" Sprite="BasicSprites:WhiteFill" Picture="1" Sizable="0" NoClip="1" NeverBringToFront="1" IgnoreMouse="1">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="28" TAnchorPoint="0" TAnchorOffset="1" RAnchorPoint="0" RAnchorOffset="46" BAnchorPoint="0" BAnchorOffset="19" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="Full" TooltipColor="" Sprite="SpellPower_SSrunes:ssrune3" Picture="1" IgnoreMouse="1" DoNotBlockTooltip="1" NoClip="1" ScaleOnShowHide="1"/>
+            </Control>
+            <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="245" TAnchorPoint="0" TAnchorOffset="5" RAnchorPoint="0" RAnchorOffset="320" BAnchorPoint="0" BAnchorOffset="25" AutoSetText="0" UseValues="0" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="SpellPowerBar4" BGColor="55000000" TextColor="white" TooltipColor="" BarColor="AA992400" BRtoLT="0" EdgeGlow="0" NoClipEdgeGlow="0" DrawTicks="0" PolygonalClipping="0" RadialBar="0" ProgressEdgeGlow="" HideInEditor="0" Sprite="BasicSprites:WhiteFill" Picture="1" Sizable="0" NoClip="1" NeverBringToFront="1" IgnoreMouse="1">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="28" TAnchorPoint="0" TAnchorOffset="1" RAnchorPoint="0" RAnchorOffset="46" BAnchorPoint="0" BAnchorOffset="19" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="Full" TooltipColor="" Sprite="SpellPower_SSrunes:ssrune4" Picture="1" IgnoreMouse="1" DoNotBlockTooltip="1" NoClip="1" ScaleOnShowHide="1" RightEdgeControlsAnchor="`"/>
+            </Control>
+        </Control>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="30" RAnchorPoint="0" RAnchorOffset="320" BAnchorPoint="0" BAnchorOffset="40" RelativeToClient="1" Font="Default" Text="" BGColor="AA000000" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="FocusBarContainer" TooltipColor="" Sprite="" Picture="0" IgnoreMouse="1" NoClip="1" NeverBringToFront="1" Tooltip="">
+            <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="5" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="320" BAnchorPoint="0" BAnchorOffset="5" AutoSetText="0" UseValues="0" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="FocusBar" BGColor="55000000" TextColor="white" TooltipColor="" BarColor="AAFF3C00" BRtoLT="0" EdgeGlow="0" NoClipEdgeGlow="0" DrawTicks="0" PolygonalClipping="0" RadialBar="0" ProgressEdgeGlow="" HideInEditor="0" Picture="1" Sprite="BasicSprites:WhiteFill" IgnoreMouse="1" NoClip="1" NeverBringToFront="1"/>
+        </Control>
+    </Form>
+    <SpriteFile Name="SpellPower_SSrunes.xml"/>
+    <Form Class="Window" LAnchorPoint="0" LAnchorOffset="10" TAnchorPoint="0" TAnchorOffset="10" RAnchorPoint="0" RAnchorOffset="304" BAnchorPoint="0" BAnchorOffset="334" RelativeToClient="1" Font="Default" Text="" BGColor="AA000000" TextColor="white" Template="Default" TooltipType="OnCursor" Name="OptionsPanel" Border="0" Picture="1" SwallowMouseClicks="1" Moveable="1" Escapable="1" Overlapped="1" TooltipColor="" Tooltip="" Sprite="BasicSprites:WhiteFill" VScroll="0" AutoHideScroll="0">
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="CRB_Interface10_BB" Text="SpellPower Options" BGColor="xkcdCerulean" TextColor="white" Template="Default" TooltipType="OnCursor" Name="TitleBar" TooltipColor="" TextId="" DT_CENTER="1" DT_VCENTER="1" VScroll="0" IgnoreMouse="1" Sprite="BasicSprites:WhiteFill" Picture="1">
+            <Control Class="Button" Base="" Font="CRB_Interface9_BB" ButtonType="PushButton" RadioGroup="" LAnchorPoint="1" LAnchorOffset="-41" TAnchorPoint="0" TAnchorOffset="1" RAnchorPoint="1" RAnchorOffset="-1" BAnchorPoint="0" BAnchorOffset="21" DT_VCENTER="1" DT_CENTER="1" BGColor="xkcdCherry" TextColor="white" NormalTextColor="UI_BtnTextDefault" PressedTextColor="UI_BtnTextDefault" FlybyTextColor="UI_BtnTextDefault" PressedFlybyTextColor="UI_BtnTextDefault" DisabledTextColor="UI_BtnTextDefault" TooltipType="OnCursor" Name="CloseButton" TooltipColor="" Sprite="BasicSprites:WhiteFill" Picture="1" Text="" TextId="">
+                <Event Name="ButtonSignal" Function="CloseOptionsPanel"/>
+                <Pixie LAnchorPoint="0" LAnchorOffset="13" TAnchorPoint="0" TAnchorOffset="4" RAnchorPoint="1" RAnchorOffset="-13" BAnchorPoint="1" BAnchorOffset="-4" BGColor="white" Font="Default" TextColor="UI_WindowTextDefault" Text="" Sprite="SpellPower_Misc:flat_white_X" Line="0"/>
+            </Control>
+        </Control>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="10" TAnchorPoint="0" TAnchorOffset="40" RAnchorPoint="1" RAnchorOffset="-10" BAnchorPoint="0" BAnchorOffset="101" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="MoveControls" TooltipColor="">
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="1" TAnchorOffset="-21" RAnchorPoint="0" RAnchorOffset="168" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="XPosition" TooltipColor="" Tooltip="X Position" TooltipId="" TooltipFont="CRB_Interface10_B" Sizable="0" IgnoreMouse="1" NotRelative="0" HScroll="0" AutoHideScroll="0">
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="20" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="-20" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="XPositionEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" WantTab="1" LoseFocusOnExternalClick="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="21" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="PositionLeft" TooltipColor="" Sprite="SpellPower_Misc:flat_white_arrow_left" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="" TooltipId="SocialPanel_Left" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="1" LAnchorOffset="-21" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="PositionRight" TooltipColor="" Sprite="SpellPower_Misc:flat_white_arrow_right" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="" TooltipId="SocialPanel_Right" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="61" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="MoveIcon" TooltipColor="" Sprite="SpellPower_Misc:flat_white_move" Picture="1" IgnoreMouse="1" Visible="1" Tooltip="Position" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="177" TAnchorPoint="1" TAnchorOffset="-21" RAnchorPoint="0" RAnchorOffset="274" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="YPosition" TooltipColor="" Tooltip="Y Position" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="20" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="-20" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="YPositionEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" WantTab="1" LoseFocusOnExternalClick="1">
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="21" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="PositionDown" TooltipColor="" Sprite="SpellPower_Misc:flat_white_arrow_down" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Down" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="1" LAnchorOffset="-21" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="PositionUp" TooltipColor="" Sprite="SpellPower_Misc:flat_white_arrow_up" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Up" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="124" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="168" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="Default" Text="" BGColor="xkcdMagenta" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="MetaButton" TooltipColor="" Sprite="" Picture="1" IgnoreMouse="0">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="On" TooltipColor="" Sprite="SpellPower_Misc:flat_white_ctrlbutton" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="Requires Meta Key to Move (Click to Disable)" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Off" TooltipColor="" Sprite="SpellPower_Misc:flat_white_cursorarrow" Picture="1" IgnoreMouse="1" HideInEditor="1" Visible="0" Tooltip="Free Movement (Click to Enable Meta Key)" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="115" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="Default" Text="" BGColor="xkcdMagenta" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="LockButton" TooltipColor="" Sprite="" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta">
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="On" TooltipColor="" Sprite="SpellPower_Misc:flat_white_lock" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="Locked (Click to unlock)" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Off" TooltipColor="" Sprite="SpellPower_Misc:flat_white_unlock" Picture="1" IgnoreMouse="1" HideInEditor="1" Visible="0" Tooltip="Unlocked (Click to lock)" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="177" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="221" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="CenterHorizButton" TooltipColor="" Sprite="SpellPower_Misc:flat_white_center_horizontal" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Center Horizontally" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="230" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="274" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="CenterVertButton" TooltipColor="" Sprite="SpellPower_Misc:flat_white_center_vertical" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Center Vertically" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+        </Control>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="10" TAnchorPoint="0" TAnchorOffset="111" RAnchorPoint="1" RAnchorOffset="-10" BAnchorPoint="0" BAnchorOffset="172" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="ResizeControls" TooltipColor="">
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="61" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="ResizeIcon" TooltipColor="" Sprite="SpellPower_Misc:flat_white_resize" Picture="1" IgnoreMouse="1" Visible="1" Tooltip="Size and Scale" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="0" BAnchorOffset="30" RelativeToClient="1" Font="CRB_Interface10_BB" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Scale" TooltipColor="" TextId="" DT_VCENTER="1" Tooltip="" TooltipId="CRB_Scale" TooltipFont="CRB_Interface10_B">
+                <Control Class="ProgressBar" Text="" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="150" BAnchorPoint="1" BAnchorOffset="0" AutoSetText="0" UseValues="1" RelativeToClient="1" SetTextToProgress="0" DT_CENTER="1" DT_VCENTER="1" ProgressEmpty="" ProgressFull="BasicSprites:WhiteFill" TooltipType="OnCursor" Name="ScaleSlider" BGColor="AA000000" TextColor="ffffffff" TooltipColor="" BarColor="55FFFFFF" TextId="" Font="CRB_Interface10_BB" TextX="0" TextWidth="50" TextY="0" TextHeight="50" Sprite="BasicSprites:WhiteFill" Picture="1" Tooltip="" TooltipId="" TooltipFont="&lt;Default Font&gt;">
+                    <Event Name="MouseEnter" Function="MouseOverSlider"/>
+                    <Event Name="MouseMove" Function="MouseOverSlider"/>
+                    <Event Name="MouseExit" Function="MouseOffSlider"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownSlider"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpSlider"/>
+                    <Pixie LAnchorPoint="0" LAnchorOffset="45" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="-45" BAnchorPoint="1" BAnchorOffset="0" Sprite="SpellPower_Misc:flat_white_zoom" BGColor="white" TextColor="black" Rotation="0" Font="CRB_Interface10_BB"/>
+                </Control>
+                <Control Class="EditBox" LAnchorPoint="1" LAnchorOffset="-40" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="100" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="ScaleEditBox" TooltipColor="" TextId="" DT_CENTER="1" DT_VCENTER="1" WantTab="1" LoseFocusOnExternalClick="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="1" TAnchorOffset="-21" RAnchorPoint="0" RAnchorOffset="168" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Width" TooltipColor="" Tooltip="Width" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="20" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="-20" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="WidthEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" LoseFocusOnExternalClick="1" WantTab="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="21" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Narrower" TooltipColor="" Sprite="SpellPower_Misc:flat_white_narrower" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Narrower" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="1" LAnchorOffset="-21" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Wider" TooltipColor="" Sprite="SpellPower_Misc:flat_white_wider" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Wider" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="177" TAnchorPoint="1" TAnchorOffset="-21" RAnchorPoint="0" RAnchorOffset="274" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Height" TooltipColor="" Tooltip="Height" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="20" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="-20" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="HeightEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" WantTab="1" LoseFocusOnExternalClick="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="21" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Shorter" TooltipColor="" Sprite="SpellPower_Misc:flat_white_shorter" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Shorter" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Control Class="Window" LAnchorPoint="1" LAnchorOffset="-21" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Taller" TooltipColor="" Sprite="SpellPower_Misc:flat_white_taller" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Taller" TooltipId="" TooltipFont="CRB_Interface10_B">
+                    <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                    <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                    <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                    <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+        </Control>
+        <Event Name="WindowShow" Function="OptionsPanelRefreshValues"/>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="10" TAnchorPoint="0" TAnchorOffset="182" RAnchorPoint="1" RAnchorOffset="-10" BAnchorPoint="0" BAnchorOffset="243" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="OpacityControls" TooltipColor="">
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="61" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="OpacityIcon" TooltipColor="" Sprite="SpellPower_Misc:flat_white_opacity" Picture="1" IgnoreMouse="1" Visible="1" Tooltip="Opacity" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="0" RAnchorOffset="133" BAnchorPoint="1" BAnchorOffset="-3" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="BgOpacity" TooltipColor="" Sprite="SpellPower_Misc:flat_white_background_icon" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Background Opacity" TooltipId="">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="1" TAnchorOffset="-20" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="BgOpacityEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" LoseFocusOnExternalClick="1" WantTab="1" Tooltip="">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="141" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="0" RAnchorOffset="203" BAnchorPoint="1" BAnchorOffset="-3" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="NoCombatOpacity" TooltipColor="" Sprite="SpellPower_Misc:flat_white_nocombat_icon" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Out-of-Combat Opacity" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="1" TAnchorOffset="-20" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="NoCombatOpacityEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" LoseFocusOnExternalClick="1" WantTab="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="211" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="0" RAnchorOffset="273" BAnchorPoint="1" BAnchorOffset="-3" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="CombatOpacity" TooltipColor="" Sprite="SpellPower_Misc:flat_white_combat_icon" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Combat Opacity" TooltipId="" TooltipFont="CRB_Interface10_B">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Control Class="EditBox" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="1" TAnchorOffset="-20" RAnchorPoint="1" RAnchorOffset="0" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="CRB_Interface10_BB" Text="1234" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="CombatOpacityEditBox" TooltipColor="" DT_CENTER="1" DT_VCENTER="1" TextId="" LoseFocusOnExternalClick="1" WantTab="1">
+                    <Event Name="EditBoxChanged" Function="EditBoxChanged"/>
+                    <Event Name="EditBoxEscape" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxReturn" Function="OptionsPanelRefreshValues"/>
+                    <Event Name="EditBoxTab" Function="TabToNextEditBox"/>
+                </Control>
+                <Event Name="MouseWheel" Function="MouseWheelOption"/>
+            </Control>
+        </Control>
+        <Control Class="Window" LAnchorPoint="0" LAnchorOffset="10" TAnchorPoint="0" TAnchorOffset="253" RAnchorPoint="1" RAnchorOffset="-10" BAnchorPoint="0" BAnchorOffset="314" RelativeToClient="1" Font="Default" Text="" BGColor="UI_WindowBGDefault" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="Features" TooltipColor="" Tooltip="" TooltipId="">
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="0" TAnchorPoint="0" TAnchorOffset="0" RAnchorPoint="0" RAnchorOffset="61" BAnchorPoint="1" BAnchorOffset="0" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="FeaturesIcon" TooltipColor="" Sprite="SpellPower_Misc:flat_white_features" Picture="1" IgnoreMouse="1" Visible="1" Tooltip="Features" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="71" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="0" RAnchorOffset="168" BAnchorPoint="1" BAnchorOffset="-3" RelativeToClient="1" Font="CRB_Interface10_BB" Text="Focus Text" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="OnCursor" Name="FocusText" TooltipColor="" Sprite="" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Focus Text" TooltipId="" TextId="" DT_CENTER="1">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="35" TAnchorPoint="0" TAnchorOffset="20" RAnchorPoint="1" RAnchorOffset="-35" BAnchorPoint="1" BAnchorOffset="-4" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="On" TooltipColor="" Sprite="SpellPower_Misc:flat_white_checkbox_checked" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="35" TAnchorPoint="0" TAnchorOffset="20" RAnchorPoint="1" RAnchorOffset="-35" BAnchorPoint="1" BAnchorOffset="-4" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Off" TooltipColor="" Sprite="SpellPower_Misc:flat_white_checkbox_unchecked" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+            <Control Class="Window" LAnchorPoint="0" LAnchorOffset="177" TAnchorPoint="0" TAnchorOffset="7" RAnchorPoint="0" RAnchorOffset="274" BAnchorPoint="1" BAnchorOffset="-3" RelativeToClient="1" Font="CRB_Interface10_BB" Text="Focus Bar" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="FocusBar" TooltipColor="" Sprite="" Picture="1" IgnoreMouse="0" colorBG="xkcdMagenta" Tooltip="Focus Bar" TooltipId="" TooltipFont="CRB_Interface10_B" TextId="" DT_CENTER="1">
+                <Event Name="MouseEnter" Function="MouseOverOptionsButton"/>
+                <Event Name="MouseExit" Function="MouseOffOptionsButton"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="35" TAnchorPoint="0" TAnchorOffset="20" RAnchorPoint="1" RAnchorOffset="-35" BAnchorPoint="1" BAnchorOffset="-4" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="On" TooltipColor="" Sprite="SpellPower_Misc:flat_white_checkbox_checked" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Control Class="Window" LAnchorPoint="0" LAnchorOffset="35" TAnchorPoint="0" TAnchorOffset="20" RAnchorPoint="1" RAnchorOffset="-35" BAnchorPoint="1" BAnchorOffset="-4" RelativeToClient="1" Font="Default" Text="" BGColor="white" TextColor="UI_WindowTextDefault" Template="Default" TooltipType="DynamicFloater" Name="Off" TooltipColor="" Sprite="SpellPower_Misc:flat_white_checkbox_unchecked" Picture="1" IgnoreMouse="1" HideInEditor="0" Tooltip="" TooltipId="" TooltipFont="CRB_Interface10_B"/>
+                <Event Name="MouseButtonDown" Function="MouseDownOptionsButton"/>
+                <Event Name="MouseButtonUp" Function="MouseUpOptionsButton"/>
+            </Control>
+        </Control>
+    </Form>
+    <SpriteFile Name="SpellPower_Misc.xml"/>
+</Forms>

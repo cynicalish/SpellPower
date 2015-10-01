@@ -1,0 +1,10 @@
+<Fonts>
+    <Font Name="OpenSans_Regular_8" Face="Open Sans" Size="8" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_9" Face="Open Sans" Size="9" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_10" Face="Open Sans" Size="10" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_11" Face="Open Sans" Size="11" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_12" Face="Open Sans" Size="12" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_14" Face="Open Sans" Size="14" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_16" Face="Open Sans" Size="16" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+    <Font Name="OpenSans_Regular_18" Face="Open Sans" Size="18" GfxFont_3D="0" GfxFont_Bold="0" GfxFont_Italic="0" GfxFont_Shadow="0" GfxFont_Outline="0"/>
+</Fonts>
